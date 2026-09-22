@@ -1,0 +1,39 @@
+# Secrets
+.credentials.yaml
+.env
+.env.*
+*.key
+*.pem
+*api-key*
+*token*
+
+# Runtime / logs
+*.log
+logs/
+bridge-logs/
+sessions/
+storages/
+node_modules/
+.pnpm-store/
+npm-cache/
+npx-cache/
+tmp/
+temp/
+
+# Vendor payloads / binaries
+*.tgz
+*.dll
+*.exe
+*.pdb
+*.zip
+*.rar
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc

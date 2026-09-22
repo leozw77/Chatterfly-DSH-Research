@@ -1,0 +1,10 @@
+# Example DSH settings for a lower-cost default.
+# No API key is stored here.
+
+agent-default-model:
+  provider: deepseek-official
+  model: deepseek-flash
+  reasoningEffort: low
+
+llm-deepseek:
+  reasoningEffort: low

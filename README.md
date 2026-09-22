@@ -244,6 +244,9 @@ scripts/
   Set-DeepSeekApiKey.ps1
   Test-Integration.ps1
 
+examples/
+  settings.low-cost.yaml
+
 tools/
   task_probe.py
 ~~~
